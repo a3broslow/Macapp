@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# Ruby version added by Myself (A3broslow) , removed it again
+#https://dashboard.heroku.com/apps/macappa3/activity/builds/8a5b00c6-39ef-4e70-82f6-d1b96a958e10
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
@@ -50,5 +51,6 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 	gem 'puma'
+
 end
 
